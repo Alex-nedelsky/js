@@ -1,26 +1,26 @@
-// Setup
-function testStrict(val) {
-  if (val === 7) { // Change this line
-    return "Equal";
-  }
-  return "Not Equal";
-}
+Your task is to find the maximum number of queens that can be put on the board so that there would be one single unbeaten square (ie. threatened by no queen on the board).
 
-testStrict(10);
+The Queen can move any distance vertically, horizontally and diagonally.
 
-// Setup
-function compareEquality(a, b) {
-  if (a === b) { // Change this line
-    return "Equal";
-  }
-  return "Not Equal";
-}
-compareEquality(10, "10");
+Input
+The queens(n) function takes the size of the chessboard.
 
-function chromosomeCheck(sperm) { if (sperm === "XX") {
-    return "Congratulations! You're going to have a daughter.";
-  } else if (sperm === "XY") {
-    return "Congratulations! You're going to have a son.";
-  } 
-  
+�
+∈
+�
+n∈Z, so it can be negative, and values can go up to 
+14
+1
+1000
+141 
+1000
+ .
+
+Output
+The maximum number of queens to leave one single unbeaten square
+Return 0 if n is negative.
+// the input and output values are in BigInt type
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt
+function queens(n){
+  return 0n;
 }
